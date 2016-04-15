@@ -1,10 +1,9 @@
-var prefs   = require("sdk/simple-prefs").prefs;
-var repoUrl = prefs.repoUrl;
-
 require('sdk/page-mod').PageMod({
-  include: 'https://github.com/' + repoUrl + '/*',
+  include: 'https://github.com*',
   contentScriptFile: [
     './jquery-2.2.2.min.js',
+    './approvers.js',
+    './profile.js',
     './github-extensions.js'
   ]
 });
