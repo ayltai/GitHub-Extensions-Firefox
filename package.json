@@ -3,7 +3,7 @@
   "title": "GitHub Extensions",
   "name": "github-extensions",
   "fullName": "GitHub Extensions",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "description": "A bunch of little enhancements for GitHub web\n\nFeatures:\n* Quick Merge - Merge any ready-to-merge pull requests directly in pull request listing\n* Approvers Avatar - Shows reviewers avatar who have approved the pull request\n* Plus-One Counter - Shows plus-one counts for all pull requests at once, and adjust the message count to exclude plus-one comments\n* Link to CI build - The commit build status icon now links to the correspond CI build details page (if CI is integrated)\n* Plus-One Emoji - Shows a plus-one emoji icon for commenting plus-one only message\n* Show full names - Replaces usernames with full names",
   "main": "index.js",
   "author": "Alan Tai",
